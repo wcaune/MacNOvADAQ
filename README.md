@@ -14,3 +14,9 @@ For linux user, the VNC is ready to connect, run
 will connect to the DAQ server. It has been tested on Ubuntu 22 and AL9.
 
 ## MacOS 14.5
+
+To check if the VNC viewer is installed usefully, type 
+```bash
+/Applications/VNC\ Viewer.app/Contents/MacOS/vncviewer
+```
+in terminal.

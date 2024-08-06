@@ -6,3 +6,11 @@ The scripts can be found under
 ```bash
 /exp/nova/app/users/biaow/myROC/
 ```
+## Linux OS
+For linux user, the VNC is ready to connect, run
+```bash
+ bash JustDoIt.sh FarDet-1
+```
+will connect to the DAQ server. It has been tested on Ubuntu 22 and AL9.
+
+## MacOS 14.5

@@ -34,6 +34,6 @@ export VNCVIEWER_CMD='/Applications/VNC Viewer.app/Contents/MacOS/vncviewer'
 #export VNCVIEWER_CMD='vncviewer'
 alias python=python3
 ```
-to each time we run **`JustDoIt.sh`**, the Real VNC viewer is ready. 
+so that each time we run **`JustDoIt.sh`**, the Real VNC viewer is ready to connect. 
 
 - The password is the common password for remote control room since 2017.

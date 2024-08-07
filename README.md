@@ -19,4 +19,21 @@ To check if the VNC viewer is installed usefully, type
 ```bash
 /Applications/VNC\ Viewer.app/Contents/MacOS/vncviewer
 ```
-in terminal.
+in terminal and see if the screen pop-up.
+
+Then edit the **`Tools.py`** with
+```python
+    vncviewer_cmd=os.path.expandvars("${VNCVIEWER_CMD}")
+    to_run = [ vncviewer_cmd , "-Shared" ]
+```
+
+
+and in **`SetupROCOptions.sh`** we want
+```bash
+export VNCVIEWER_CMD='/Applications/VNC Viewer.app/Contents/MacOS/vncviewer'
+#export VNCVIEWER_CMD='vncviewer'
+alias python=python3
+```
+to each time we run **`JustDoIt.sh`**, the Real VNC viewer is ready. 
+
+- The password is the common password for remote control room since 2017.

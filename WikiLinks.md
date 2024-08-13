@@ -6,3 +6,7 @@
 ## From nusoft
 
 - [DAQ Procedures](https://nova-nusoft.fnal.gov/expert/procedures/procedures.php?topic=magiccookie)
+
+
+## From DocDB
+- Far

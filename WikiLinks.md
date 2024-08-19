@@ -6,6 +6,7 @@
 ## From nusoft
 
 - [DAQ Procedures](https://nova-nusoft.fnal.gov/expert/procedures/procedures.php?topic=magiccookie)
+- [Detector Uptime Status](https://nusoft.fnal.gov/nova/status/)
 - [Far Detector Watchlist](https://nusoft.fnal.gov/nova/datacheck/nearline/HardwareWatchList.php?det=FarDet)
 
 

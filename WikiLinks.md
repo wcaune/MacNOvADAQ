@@ -12,3 +12,4 @@
 
 ## From DocDB
 - DAQ Procedures and Flowcharts: 15186
+- Remote Control Room Liaison's Manual: 13741

@@ -3,6 +3,8 @@
 Please read the Wiki page for more tips.
 
 The scripts can be found under
+**`https://github.com/novaexperiment/novadaq/tree/034639b48796a057c4356aebff790f42f98947cb/pkgs/NovaRemoteControlRooms`**
+or 
 ```bash
 /exp/nova/app/users/biaow/myROC/
 ```

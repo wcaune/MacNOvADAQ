@@ -1,4 +1,4 @@
-## cleaning the memory segments :
+## Cleaning the memory segments :
 
 ```bash
 ssh tdu-near-master-ppc-01 -l root

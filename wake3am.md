@@ -3,3 +3,10 @@ login as novadaq to novadaq-near-mgr-01 to run this:
 ```bash
 [novadaq@novadaq-near-mgr-01 ~]$ /home/novadaq/DAQOperationsTools/bin/startBeamSpillBackBoneND.sh -z 1
 ```
+
+### Reboot DCM
+Can not reboot
+```bash
+rgang.py -l root dcm-1-02-03 reboot
+```
+ssh: connect to host dcm-1-02-03 port 22: No route to host

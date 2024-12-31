@@ -10,3 +10,6 @@ Can not reboot
 rgang.py -l root dcm-1-02-03 reboot
 ```
 ssh: connect to host dcm-1-02-03 port 22: No route to host
+
+### Error message keeps poping up when ending a run.
+Directly click "kill partitions" button on the left bar menu.

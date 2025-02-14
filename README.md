@@ -43,7 +43,7 @@ so that each time we run **`JustDoIt.sh`**, the Real VNC viewer is ready to conn
 ## Connect to NearDet-4 with MacOS 15.3
 
 We now run Synoptics display on NearDet-4 server and we have to update
-`pkgs/NovaControlRoom/scripts/Connections.py'
+`pkgs/NovaControlRoom/scripts/Connections.py`
 and
 `pkgs/NovaRemoteControlRooms/Tools.py`
 

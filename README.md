@@ -39,3 +39,12 @@ alias python=python3
 so that each time we run **`JustDoIt.sh`**, the Real VNC viewer is ready to connect. 
 
 - The password is the common password for remote control room since 2017.
+
+## Connect to NearDet-4 with MacOS 15.3
+
+We now run Synoptics display on NearDet-4 server and we have to update
+`pkgs/NovaControlRoom/scripts/Connections.py'
+and
+`pkgs/NovaRemoteControlRooms/Tools.py`
+
+And on MacOS 15, we should use the 3-year-old version of `JustDoIt.sh` to connect smoothly.

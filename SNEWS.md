@@ -23,3 +23,9 @@ Keyboard-interactive authentication is disabled to avoid man-in-the-middle attac
 
 ```
 Check the bash history on novadaq-near-mgr-01 and run the command.
+
+## SNEWS Forwarder_FarDet still pink?
+try
+```bash
+[novadaq@novadaq-near-mgr-01 ~]$ bash /home/novadaq/DAQOperationsTools/bin/startSNEWSMessageBackBone.sh -z 1
+```

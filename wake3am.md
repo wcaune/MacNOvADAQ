@@ -1,3 +1,15 @@
+## MsgAnalyzer 0
+If on `FarDet-1`, it starts from yellow, and after we stop and start DiskWatcher on `FarDet-2`, it turns into red. Then we should try restarting the P0 dds:
+
+```bash
+ssh -AKXY novadaq@novadaq-far-mgr-01
+vim DAQOperationsTools/bin/startMsgAnalyzer0.sh
+setup_online -z 0
+ospl stop
+ospl start
+```
+Then on `FarDet-2`, stop and start DiskWatcher again.
+
 ### NSSSpillForwarder not running
 login as novadaq to novadaq-near-mgr-01 to run this:
 ```bash

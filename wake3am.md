@@ -1,3 +1,7 @@
+## Blank DCM in FEB rate error Monitor
+Should be a whole DCM out of sync. It usually crashes a run. If it hasn't, hit the blue sync button on the TDU control.
+Eventually the "Low number of FEBs" will clear as well.  That red plot is a lagging indicator.
+
 ## MsgAnalyzer 0
 If on `FarDet-1`, it starts from yellow, and after we stop and start DiskWatcher on `FarDet-2`, it turns into red. Then we should try restarting the P0 dds:
 

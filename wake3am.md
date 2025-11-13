@@ -1,3 +1,5 @@
+## Terminal frozen when kill partition 1
+Just `CTRL-C` the kill partition terminal and run it again (and 2nd time).
 ## Blank DCM in FEB rate error Monitor
 Should be a whole DCM out of sync. It usually crashes a run. If it hasn't, hit the blue sync button on the TDU control.
 Eventually the "Low number of FEBs" will clear as well.  That red plot is a lagging indicator.

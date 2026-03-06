@@ -10,7 +10,7 @@ If other things are reasonable,  the correct sequence is, from the DAQAppMgr:
 
 - Restart-DDS for MessageFacilityServer
 - Then just restart-App for MessageAnalyzer and MessageViewer as needed
-## MsgAnalyzer 0
+## FD MsgAnalyzer 0
 If on `FarDet-1`, it starts from yellow, and after we stop and start DiskWatcher on `FarDet-2`, it turns into red. Then we should try restarting the P0 dds:
 
 ```bash

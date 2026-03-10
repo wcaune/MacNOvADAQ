@@ -9,7 +9,10 @@ Eventually the "Low number of FEBs" will clear as well.  That red plot is a lagg
 If other things are reasonable,  the correct sequence is, from the DAQAppMgr:
 
 - Restart-DDS for MessageFacilityServer
-- Then just restart-App for MessageAnalyzer and MessageViewer as needed
+- Then just restart-App for MessageAnalyzer and MessageViewer as needed.
+
+## ND MsgAnalyzer 0
+- Stop and start Disk Watcher on `NearDet-2`.
 ## FD MsgAnalyzer 0
 If on `FarDet-1`, it starts from yellow, and after we stop and start DiskWatcher on `FarDet-2`, it turns into red. Then we should try restarting the P0 dds:
 
